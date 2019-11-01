@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { ProfileComponent } from './profile/profile.component';
 import { GithubComponent } from './github/github.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ProfileComponent,
-    GithubComponent
+    GithubComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
