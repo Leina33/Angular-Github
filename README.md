@@ -1,4 +1,4 @@
-Github search
+##Github search
 Github search is an API  Website where a person can search for someone else github account and view the repos after clicking the search button
 ## Author
 Dominic K. Rutto
