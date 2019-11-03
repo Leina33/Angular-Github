@@ -8,6 +8,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { GithubComponent } from './github/github.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { GithubFormComponent } from './github-form/github-form.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { GithubFormComponent } from './github-form/github-form.component';
     ProfileComponent,
     GithubComponent,
     NavbarComponent,
-    GithubFormComponent
+    GithubFormComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
