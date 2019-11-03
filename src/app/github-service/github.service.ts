@@ -6,6 +6,10 @@ import { Github } from '../github';
 })
 export class GithubService {
 
+  github:Github = [
+    new Github ()
+  ]
+
   getGithub(){
     return Github
   }

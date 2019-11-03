@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { GithubComponent } from './github/github.component';
+// import { GithubComponent } from './github/github.component';
 import { AboutComponent } from './about/about.component';
 import {ProfileComponent} from './profile/profile.component'
 
@@ -8,7 +8,7 @@ import {ProfileComponent} from './profile/profile.component'
 
 const routes: Routes = [
   {path:'about', component:AboutComponent},
-  {path: 'github', component:GithubComponent},
+  // {path: 'github', component:GithubComponent},
   {path:'profile',component:ProfileComponent}
 ];
 

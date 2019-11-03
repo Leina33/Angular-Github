@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Github} from '../github';
+import { GithubService } from '../github-service/github.service';
 
 @Component({
   selector: 'app-github',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GithubComponent implements OnInit {
 
-  constructor() { }
+  github:Github[
+    
+  ];
+
+
+  constructor(githubService:GithubService) {
+    // this.github = githubService.getGithub()
+   }
 
   ngOnInit() {
   }
