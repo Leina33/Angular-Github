@@ -9,13 +9,15 @@ import { GithubService } from '../github-service/github.service';
 })
 export class GithubComponent implements OnInit {
 
-  github:Github[
+  github:Github
     
-  ];
+  
+
+   
 
 
   constructor(githubService:GithubService) {
-    // this.github = githubService.getGithub()
+    this.github = githubService.getGithub()
    }
 
   ngOnInit() {

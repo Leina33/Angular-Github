@@ -11,7 +11,7 @@ export class GithubService {
   ]
 
   getGithub(){
-    return Github
+    return this.github
   }
 
   constructor() { }
