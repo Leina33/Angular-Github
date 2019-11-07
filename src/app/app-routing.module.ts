@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:'about', component:AboutComponent},
   {path: 'github', component:GithubComponent},
   {path:'profile',component:ProfileComponent},
-  {"path":"**","component":NotFoundComponent}
+  {"path":"  ","component":NotFoundComponent}
 ];
 
 @NgModule({
